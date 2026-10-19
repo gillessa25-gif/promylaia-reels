@@ -3,6 +3,10 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+    inputs:
+      check:
+        description: connection test only (1)
+        default: "0"
 permissions:
   contents: read
 concurrency:
@@ -16,3 +20,4 @@ jobs:
       - run: python3 publish.py
         env:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          CHECK: ${{ inputs.check }}

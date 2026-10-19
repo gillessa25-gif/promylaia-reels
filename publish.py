@@ -47,6 +47,13 @@ def main():
     if not KEY:
         raise SystemExit("COMPOSIO_API_KEY secret is missing")
     now = datetime.now(timezone.utc)
+    if os.environ.get("CHECK") == "1":  # connection test: no publishing
+        acct = account_id()
+        ok, info, err = execute(acct, "INSTAGRAM_GET_USER_INFO", {})
+        print(f"CHECK account={'found' if acct else None} user={info.get('username') if ok else err}")
+        ok, media, err = execute(acct, "INSTAGRAM_GET_IG_USER_MEDIA", {"ig_user_id": IG_USER_ID, "limit": 3, "fields": "id,timestamp"})
+        print(f"CHECK media ok={ok} count={len((media or {}).get('data') or [])} err={err}")
+        return
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "schedule.json")) as f:
         items = json.load(f)
     due = [i for i in items if datetime.fromisoformat(i["at"]) <= now < datetime.fromisoformat(i["at"]) + LATE]
