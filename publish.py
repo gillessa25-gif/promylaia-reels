@@ -2,47 +2,30 @@
 """Cloud publisher: runs on GitHub Actions every 15 minutes (Mac can be off).
 Publishes the reels of schedule.json that are due (at <= now < at + 36 h) to @gilless_ai through Composio.
 Idempotent: a reel whose caption is already among the latest posts is skipped."""
-import json, os, sys, time, urllib.error, urllib.request
+import json, os, subprocess, sys, time
 from datetime import datetime, timedelta, timezone
 
 KEY = os.environ.get("COMPOSIO_API_KEY", "")
-BASE = "https://backend.composio.dev/api/v3"
 IG_USER_ID = "28326356453714182"
 EXPECTED = "gilless_ai"
 LATE = timedelta(hours=36)
 
 
-def api(method, path, body=None):
-    # project keys use x-api-key, user keys (ck_...) use x-user-api-key: try both
-    last = None
-    for header in (["x-user-api-key", "x-api-key"] if KEY.startswith("ck_") else ["x-api-key", "x-user-api-key"]):
-        req = urllib.request.Request(BASE + path, method=method, data=json.dumps(body).encode() if body is not None else None,
-                                     headers={header: KEY, "content-type": "application/json", "user-agent": "promylaia-publisher"})
-        try:
-            with urllib.request.urlopen(req, timeout=120) as r:
-                return json.loads(r.read().decode() or "{}")
-        except urllib.error.HTTPError as e:
-            last = {"successful": False, "error": f"HTTP {e.code} ({header}): {e.read().decode()[:300]}"}
-            if e.code not in (401, 403):
-                return last
-        except Exception as e:  # network
-            return {"successful": False, "error": str(e)[:300]}
-    return last
-
-
 def account_id():
-    res = api("GET", "/connected_accounts?toolkit_slugs=instagram&statuses=ACTIVE&limit=10")
-    items = res.get("items") or res.get("data") or []
-    for it in items:
-        return it.get("id") or it.get("nanoid")
-    raise SystemExit(f"no active Instagram connection: {json.dumps(res)[:300]}")
+    return "default"  # the CLI session (logged in with the user API key) resolves the connected Instagram account
 
 
 def execute(acct, slug, args):
-    res = api("POST", f"/tools/execute/{slug}", {"connected_account_id": acct, "arguments": args})
+    try:
+        out = subprocess.run(["composio", "execute", slug, "-d", json.dumps(args)], capture_output=True, text=True, timeout=300, stdin=subprocess.DEVNULL)
+        res = json.loads(out.stdout)
+    except Exception as e:
+        return False, {}, f"cli error: {str(e)[:200]} {(locals().get('out') and (out.stdout + out.stderr)[:300]) or ''}"
+    if res.get("storedInFile") and res.get("outputFilePath"):
+        with open(res["outputFilePath"]) as f:
+            res = json.load(f)
     data = res.get("data") if isinstance(res.get("data"), dict) else res
-    ok = res.get("successful", True) and not res.get("error")
-    return ok, data, res.get("error")
+    return bool(res.get("successful", True)) and not res.get("error"), data, res.get("error")
 
 
 def first_line(caption):

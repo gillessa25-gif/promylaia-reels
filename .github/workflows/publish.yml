@@ -17,6 +17,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Composio CLI
+        run: |
+          npm install -g @composio/cli@0.4.2
+          composio login --user-api-key "$COMPOSIO_API_KEY" --yes --no-skill-install
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
       - run: python3 publish.py
         env:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
