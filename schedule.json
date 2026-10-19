@@ -1,0 +1,20 @@
+[
+  {
+    "id": "EP01",
+    "at": "2026-10-20T10:00:00+02:00",
+    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP01.mp4",
+    "caption": "Commente ERREURS et je t'envoie la solution à chacune 👇\n\n5 erreurs qui t'empêchent de profiter de Claude : aucune skill installée, aucun outil connecté, le même prompt à chaque fois, tous les accès d'un coup, ne jamais vérifier. #claude #ia #agentia #automatisation #pme"
+  },
+  {
+    "id": "EP02",
+    "at": "2026-10-20T16:00:00+02:00",
+    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP02.mp4",
+    "caption": "Commente SKILL et je t'envoie la skill devis 👇\n\nUne skill, c'est un dossier avec un fichier texte qui explique à Claude comment faire une tâche. Tu le déposes, il s'en sert tout seul. #claude #skills #ia #agentia #automatisation #pme"
+  },
+  {
+    "id": "EP03",
+    "at": "2026-10-21T10:00:00+02:00",
+    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP03.mp4",
+    "caption": "Commente APPS et je t'envoie le guide de connexion 👇\n\nBrancher Claude à plus de 1 000 applications : mail, agenda, Notion, Slack. Une seule connexion. #claude #composio #ia #agentia #automatisation #pme"
+  }
+]
