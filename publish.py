@@ -13,15 +13,21 @@ LATE = timedelta(hours=36)
 
 
 def api(method, path, body=None):
-    req = urllib.request.Request(BASE + path, method=method, data=json.dumps(body).encode() if body is not None else None,
-                                 headers={"x-api-key": KEY, "content-type": "application/json", "user-agent": "promylaia-publisher"})
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            return json.loads(r.read().decode() or "{}")
-    except urllib.error.HTTPError as e:
-        return {"successful": False, "error": f"HTTP {e.code}: {e.read().decode()[:300]}"}
-    except Exception as e:  # network
-        return {"successful": False, "error": str(e)[:300]}
+    # project keys use x-api-key, user keys (ck_...) use x-user-api-key: try both
+    last = None
+    for header in (["x-user-api-key", "x-api-key"] if KEY.startswith("ck_") else ["x-api-key", "x-user-api-key"]):
+        req = urllib.request.Request(BASE + path, method=method, data=json.dumps(body).encode() if body is not None else None,
+                                     headers={header: KEY, "content-type": "application/json", "user-agent": "promylaia-publisher"})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return json.loads(r.read().decode() or "{}")
+        except urllib.error.HTTPError as e:
+            last = {"successful": False, "error": f"HTTP {e.code} ({header}): {e.read().decode()[:300]}"}
+            if e.code not in (401, 403):
+                return last
+        except Exception as e:  # network
+            return {"successful": False, "error": str(e)[:300]}
+    return last
 
 
 def account_id():
