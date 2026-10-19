@@ -22,7 +22,7 @@ jobs:
           curl -fsSL https://composio.dev/install | sh -s -- --yes
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           export PATH="$HOME/.local/bin:$HOME/.composio:$PATH"
-          composio login --user-api-key "$COMPOSIO_USER_API_KEY" --org "$COMPOSIO_ORG_ID" --yes --no-skill-install
+          composio login --user-api-key "$COMPOSIO_USER_API_KEY" --org "$COMPOSIO_ORG_ID"
         env:
           COMPOSIO_USER_API_KEY: ${{ secrets.COMPOSIO_USER_API_KEY }}
           COMPOSIO_ORG_ID: ${{ secrets.COMPOSIO_ORG_ID }}
