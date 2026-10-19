@@ -33,8 +33,6 @@ def first_line(caption):
 
 
 def main():
-    if not KEY:
-        raise SystemExit("COMPOSIO_API_KEY secret is missing")
     now = datetime.now(timezone.utc)
     if os.environ.get("CHECK") == "1":  # connection test: no publishing
         acct = account_id()

@@ -17,16 +17,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
       - name: Composio CLI
         run: |
-          npm install -g @composio/cli@0.4.2
-          composio login --user-api-key "$COMPOSIO_API_KEY" --yes --no-skill-install
+          curl -fsSL https://composio.dev/install | sh -s -- --yes
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          export PATH="$HOME/.local/bin:$HOME/.composio:$PATH"
+          composio login --user-api-key "$COMPOSIO_USER_API_KEY" --org "$COMPOSIO_ORG_ID" --yes --no-skill-install
         env:
-          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          COMPOSIO_USER_API_KEY: ${{ secrets.COMPOSIO_USER_API_KEY }}
+          COMPOSIO_ORG_ID: ${{ secrets.COMPOSIO_ORG_ID }}
       - run: python3 publish.py
         env:
-          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
           CHECK: ${{ inputs.check }}
