@@ -59,7 +59,7 @@ def main():
         if first_line(it["caption"]) in posted:
             print(f"{it['id']} already published, skip")
             continue
-        ok, c, err = execute(acct, "INSTAGRAM_POST_IG_USER_MEDIA", {"ig_user_id": IG_USER_ID, "media_type": "REELS", "video_url": it["video_url"], "caption": it["caption"], "share_to_feed": True, "thumb_offset": 500})
+        ok, c, err = execute(acct, "INSTAGRAM_POST_IG_USER_MEDIA", {"ig_user_id": IG_USER_ID, "media_type": "REELS", "video_url": it["video_url"], "caption": it["caption"], "share_to_feed": True, **({"cover_url": it["cover_url"]} if it.get("cover_url") else {"thumb_offset": 500})})
         cid = (c or {}).get("id") or (c or {}).get("creation_id")
         if not ok or not cid:
             print(f"{it['id']} ERROR container: {err or c}")
