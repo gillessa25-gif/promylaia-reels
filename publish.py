@@ -108,16 +108,8 @@ def main():
         if first_line(it["caption"]) in posted:
             print(f"{it['id']} already published, skip")
             continue
-        ok, c, err = execute(acct, "INSTAGRAM_POST_IG_USER_MEDIA", {"ig_user_id": IG_USER_ID, "media_type": "REELS", "video_url": it["video_url"], "caption": it["caption"], "share_to_feed": True, **({"cover_url": it["cover_url"]} if it.get("cover_url") else {"thumb_offset": 500})})
-        cid = (c or {}).get("id") or (c or {}).get("creation_id")
-        if cid is not None and not str(cid).isdigit():
-            print(f"{it['id']} WARN container id not numeric: {str(cid)[:30]!r} keys={list((c or {}).keys())}")
-        if not ok or not cid:
-            print(f"{it['id']} ERROR container: {err or c}")
-            continue
-        ok, p, err = execute(acct, "INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH", {"ig_user_id": IG_USER_ID, "creation_id": cid, "max_wait_seconds": 300, "poll_interval_seconds": 5})
-        mid = (p or {}).get("id")
-        print(f"{it['id']} {'PUBLISHED ' + str(mid) if ok and mid else 'ERROR publish: ' + str(err or p)}")
+        mid, err = publish_via_graph(it)
+        print(f"{it['id']} {'PUBLISHED ' + str(mid) if mid else 'ERROR ' + str(err)}")
 
 
 if __name__ == "__main__":
