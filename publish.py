@@ -8,6 +8,7 @@ from datetime import datetime, timedelta, timezone
 KEY = os.environ.get("COMPOSIO_API_KEY", "")
 IG_USER_ID = "28326356453714182"
 EXPECTED = "gilless_ai"
+GRACE = timedelta(minutes=10)
 LATE = timedelta(hours=36)
 
 
@@ -92,7 +93,7 @@ def main():
         return
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "schedule.json")) as f:
         items = json.load(f)
-    due = [i for i in items if datetime.fromisoformat(i["at"]) <= now < datetime.fromisoformat(i["at"]) + LATE]
+    due = [i for i in items if datetime.fromisoformat(i["at"]) + GRACE <= now < datetime.fromisoformat(i["at"]) + LATE]  # GRACE: let the local Mac job go first, avoid double posts
     print(f"{now.isoformat(timespec='seconds')} due: {[i['id'] for i in due]}")
     if not due:
         return
