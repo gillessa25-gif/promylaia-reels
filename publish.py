@@ -34,6 +34,12 @@ def first_line(caption):
 
 def main():
     now = datetime.now(timezone.utc)
+    if os.environ.get("CHECK") == "2":  # container-only diagnostic: create a container (not published) and show the raw response
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "schedule.json")) as f:
+            it = json.load(f)[-1]
+        ok, c, err = execute("default", "INSTAGRAM_POST_IG_USER_MEDIA", {"ig_user_id": IG_USER_ID, "media_type": "REELS", "video_url": it["video_url"], "caption": "diag", "share_to_feed": False, "cover_url": it["cover_url"]})
+        print("DIAG container ok=", ok, "err=", err, "raw=", json.dumps(c)[:300])
+        return
     if os.environ.get("CHECK") == "1":  # connection test: no publishing
         acct = account_id()
         ok, info, err = execute(acct, "INSTAGRAM_GET_USER_INFO", {})
