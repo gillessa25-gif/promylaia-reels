@@ -28,12 +28,55 @@ def execute(acct, slug, args):
     return bool(res.get("successful", True)) and not res.get("error"), data, res.get("error")
 
 
+GRAPH = "https://graph.instagram.com/v21.0"
+ACCOUNT = "instagram_maugh-remora"
+
+
+def graph(method, path, body=None):
+    """Raw Graph API call through composio proxy (execute redacts numeric ids in CI)."""
+    cmd = ["composio", "proxy", f"{GRAPH}/{path}", "--toolkit", "instagram", "--account", ACCOUNT, "-X", method]
+    if body is not None:
+        cmd += ["-H", "content-type: application/json", "-d", json.dumps(body)]
+    try:
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=300, stdin=subprocess.DEVNULL)
+        return json.loads(out.stdout)
+    except Exception as e:
+        return {"error": f"proxy error: {str(e)[:200]}"}
+
+
+def publish_via_graph(it):
+    body = {"media_type": "REELS", "video_url": it["video_url"], "caption": it["caption"], "share_to_feed": True}
+    body.update({"cover_url": it["cover_url"]} if it.get("cover_url") else {"thumb_offset": 500})
+    c = graph("POST", f"{IG_USER_ID}/media", body)
+    cid = c.get("id")
+    if not cid:
+        return None, f"container: {str(c)[:300]}"
+    for _ in range(60):  # up to ~5 min for IG to process the video
+        st = graph("GET", f"{cid}?fields=status_code")
+        code = st.get("status_code")
+        if code == "FINISHED":
+            break
+        if code in ("ERROR", "EXPIRED"):
+            return None, f"container status {code}: {str(st)[:200]}"
+        time.sleep(5)
+    else:
+        return None, "container not FINISHED in time"
+    p = graph("POST", f"{IG_USER_ID}/media_publish", {"creation_id": cid})
+    return p.get("id"), None if p.get("id") else f"publish: {str(p)[:300]}"
+
+
 def first_line(caption):
     return caption.split("\n")[0].strip()
 
 
 def main():
     now = datetime.now(timezone.utc)
+    if os.environ.get("CHECK") == "3":  # proxy diagnostic: create a container via graph, print id shape, do not publish
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "schedule.json")) as f:
+            it = json.load(f)[-1]
+        c = graph("POST", f"{IG_USER_ID}/media", {"media_type": "REELS", "video_url": it["video_url"], "caption": "diag", "share_to_feed": False, "cover_url": it["cover_url"]})
+        print("DIAG3", json.dumps(c)[:300])
+        return
     if os.environ.get("CHECK") == "2":  # container-only diagnostic: create a container (not published) and show the raw response
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "schedule.json")) as f:
             it = json.load(f)[-1]
