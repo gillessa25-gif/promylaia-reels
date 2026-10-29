@@ -1,7 +1,10 @@
 name: publish
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    - cron: "7,22,37,52 * * * *"  # GitHub retarde souvent ces passages de plusieurs heures
+  push:  # déclencheur à l'heure exacte : une routine cloud pousse un fichier dans trigger/ (EP04 30/10 9h)
+    branches: [main]
+    paths: ["trigger/**"]
   workflow_dispatch:
     inputs:
       check:
