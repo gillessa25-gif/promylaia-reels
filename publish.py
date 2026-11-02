@@ -67,7 +67,7 @@ def publish_via_graph(it):
 
 
 def first_line(caption):
-    return caption.split("\n")[0].strip()
+    return caption.strip()  # full caption: EP0xH reuse the first line of EP0x
 
 
 def main():
