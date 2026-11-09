@@ -66,6 +66,32 @@ def publish_via_graph(it):
     return p.get("id"), None if p.get("id") else f"publish: {str(p)[:300]}"
 
 
+def publish_carousel(it):
+    """Carrousel photo : un conteneur enfant par image JPEG, un conteneur CAROUSEL, puis publication (pas de musique possible par l'API)."""
+    kids = []
+    for url in it["image_urls"]:
+        c = graph("POST", f"{IG_USER_ID}/media", {"image_url": url, "is_carousel_item": True})
+        if not c.get("id"):
+            return None, f"child: {str(c)[:300]}"
+        kids.append(c["id"])
+    par = graph("POST", f"{IG_USER_ID}/media", {"media_type": "CAROUSEL", "children": kids, "caption": it["caption"]})
+    cid = par.get("id")
+    if not cid:
+        return None, f"carousel container: {str(par)[:300]}"
+    for _ in range(60):
+        st = graph("GET", f"{cid}?fields=status_code")
+        code = st.get("status_code")
+        if code == "FINISHED":
+            break
+        if code in ("ERROR", "EXPIRED"):
+            return None, f"container status {code}: {str(st)[:200]}"
+        time.sleep(5)
+    else:
+        return None, "carousel container not FINISHED in time"
+    p = graph("POST", f"{IG_USER_ID}/media_publish", {"creation_id": cid})
+    return p.get("id"), None if p.get("id") else f"publish: {str(p)[:300]}"
+
+
 def first_line(caption):
     return caption.strip()  # full caption: EP0xH reuse the first line of EP0x
 
@@ -109,7 +135,7 @@ def main():
         if first_line(it["caption"]) in posted:
             print(f"{it['id']} already published, skip")
             continue
-        mid, err = publish_via_graph(it)
+        mid, err = (publish_carousel if it.get("type") == "carousel" else publish_via_graph)(it)
         print(f"{it['id']} {'PUBLISHED ' + str(mid) if mid else 'ERROR ' + str(err)}")
 
 
