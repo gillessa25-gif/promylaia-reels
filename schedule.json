@@ -1,221 +1,228 @@
 [
-  {
-    "id": "EP01",
-    "at": "2026-10-20T10:00:00+02:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP01.mp4",
-    "caption": "Commente ERREURS et je t'envoie la solution à chacune 👇\n\n5 erreurs qui t'empêchent de profiter de Claude : aucune skill installée, aucun outil connecté, le même prompt à chaque fois, tous les accès d'un coup, ne jamais vérifier. #claude #ia #agentia #automatisation #pme",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP01.jpg"
-  },
-  {
-    "id": "EP02",
-    "at": "2026-10-20T16:00:00+02:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP02.mp4",
-    "caption": "Commente SKILL et je t'envoie la skill devis 👇\n\nUne skill, c'est un dossier avec un fichier texte qui explique à Claude comment faire une tâche. Tu le déposes, il s'en sert tout seul. #claude #skills #ia #agentia #automatisation #pme",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP02.jpg"
-  },
-  {
-    "id": "EP03",
-    "at": "2026-10-22T10:00:00+02:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP03.mp4",
-    "caption": "Commente APPS et je t'envoie le guide de connexion 👇\n\nBrancher Claude à plus de 1 000 applications : mail, agenda, Notion, Slack. Une seule connexion. #claude #composio #ia #agentia #automatisation #pme",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP03.jpg"
-  },
-  {
-    "id": "R10",
-    "at": "2026-10-23T16:00:00+02:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R10.mp4",
-    "caption": "Commente ECHEC et je t'envoie le guide 👇\n\n3 erreurs qui font échouer un projet IA : tout automatiser d'un coup, ne rien mesurer avant, brancher un agent sans connecter tes outils. Le guide te donne la checklist de départ. #agentia #automatisation #pme #dirigeant #ia"
-  },
-  {
-    "id": "R15",
-    "at": "2026-10-24T10:00:00+02:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R15.mp4",
-    "caption": "Commente RAPIDE et je t'envoie le guide 👇\n\nUn prospect t'écrit samedi soir. Qui lui répond ? Un agent peut ouvrir la conversation, qualifier le besoin et proposer un rendez-vous. Le guide t'explique comment l'installer. #agentia #automatisation #pme #dirigeant #ia"
-  },
-  {
-    "id": "R13",
-    "at": "2026-10-25T09:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R13.mp4",
-    "caption": "Commente LUNDI et je t'envoie le guide 👇\n\nLundi, 9 heures, réunion d'équipe, rien de prêt ? Une IA peut préparer ta semaine : résumé de tes mails, points d'équipe, tâches classées. Le guide te montre comment la mettre en place. #agentia #automatisation #pme #dirigeant #ia"
-  },
-  {
-    "id": "R17",
-    "at": "2026-10-26T09:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R17.mp4",
-    "caption": "Commente COPIER et je t'envoie le guide 👇\n\nCRM, email, WhatsApp, tableur : tu recopies la même information d'un outil à l'autre ? Le guide te montre comment les relier pour que les données circulent toutes seules. #agentia #automatisation #pme #dirigeant #ia"
-  },
-  {
-    "id": "R18",
-    "at": "2026-10-27T09:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R18.mp4",
-    "caption": "Commente FORMATION et je t'envoie le guide 👇\n\nTu paies une formation IA et trois semaines plus tard, personne ne s'en sert ? Le guide te donne 5 questions à poser avant de payer. #agentia #automatisation #pme #dirigeant #ia"
-  },
-  {
-    "id": "R20",
-    "at": "2026-10-28T09:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R20.mp4",
-    "caption": "Commente LIMITES et je t'envoie le guide 👇\n\nAvant de confier une tâche à un agent IA, sache ce qu'il ne sait pas faire. Le guide te montre où l'humain reprend la main. #agentia #automatisation #pme #dirigeant #ia"
-  },
-  {
-    "id": "EP04",
-    "at": "2026-10-30T08:50:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP04.mp4",
-    "caption": "Commente MAIL et je t'envoie le guide 👇\n\nTes mails de 23h peuvent être prêts à 8h. Un connecteur mail, 3 étapes, et rien ne part sans toi. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP04.jpg"
-  },
-  {
-    "id": "EP05",
-    "at": "2026-10-31T12:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP05.mp4",
-    "caption": "Commente APPEL et je t'envoie les cas d'usage 👇\n\nPlus besoin d'appeler pour confirmer tes RDV : l'IA envoie le SMS depuis un numéro dédié et le client répond OUI. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP05.jpg"
-  },
-  {
-    "id": "EP01H",
-    "at": "2026-11-01T13:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP01H.mp4",
-    "caption": "Commente ERREURS et je t'envoie la solution à chacune 👇\n\nCinq erreurs t'empêchent de vraiment profiter de Claude, et la quatrième, presque tout le monde la fait. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP01H.jpg"
-  },
-  {
-    "id": "EP02H",
-    "at": "2026-11-02T14:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP02H.mp4",
-    "caption": "Commente SKILL et je t'envoie la skill devis 👇\n\nUne skill, c'est un fichier qui apprend un métier à ton IA : tu le déposes, il s'en sert tout seul. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP02H.jpg"
-  },
-  {
-    "id": "EP03H",
-    "at": "2026-11-03T09:30:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP03H.mp4",
-    "caption": "Commente APPS et je t'envoie le tuto de connexion 👇\n\nBranche ton IA à plus de 1 000 applis avec une seule connexion : elle ne fait plus que répondre, elle agit. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP03H.jpg"
-  },
-  {
-    "id": "EP04H",
-    "at": "2026-11-04T09:30:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP04H.mp4",
-    "caption": "Commente MAIL et je t'envoie le guide 👇\n\nTes mails du soir peuvent t'attendre, réponses prêtes en brouillon au réveil. Une adresse dédiée, un connecteur, tes règles, et rien ne part sans toi. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP04H.jpg"
-  },
-  {
-    "id": "EP05H",
-    "at": "2026-11-05T09:30:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP05H.mp4",
-    "caption": "Commente APPEL et je t'envoie les cas d'usage du téléphone 👇\n\nPlus besoin d'appeler pour confirmer tes RDV : la veille à 17h, chaque client reçoit son SMS. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP05H.jpg"
-  },
-  {
-    "id": "EP06H",
-    "at": "2026-11-06T09:30:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP06H.mp4",
-    "caption": "Commente APPS et je t'envoie le guide 👇\n\n91 000 étoiles pour la prise USB de l'IA : branche ton agenda, ton CRM et tes fichiers en lecture seule. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP06H.jpg"
-  },
-  {
-    "id": "EP07H",
-    "at": "2026-11-07T12:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP07H.mp4",
-    "caption": "Commente PROJET et je t'envoie le modèle de consignes 👇\n\nTes tarifs, ton ton, tes présentations : dépose-les une fois dans un projet, l'IA ne te les redemande plus. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP07H.jpg"
-  },
-  {
-    "id": "EP08H",
-    "at": "2026-11-08T18:00:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP08H.mp4",
-    "caption": "Commente SKILL et je t'envoie le guide 👇\n\nUne skill, c'est un simple fichier qui apprend un métier à l'IA : posts, concurrents, campagne complète. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP08H.jpg"
-  },
-  {
-    "id": "EP09H",
-    "at": "2026-11-09T09:30:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP09H.mp4",
-    "caption": "Commente EXCEL et je t'envoie mon prompt d'analyse 👇\n\nDonne ton tableur à l'IA : doublons, cases vides, valeurs bizarres, et le client qui rapporte le plus. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP09H.jpg"
-  },
-  {
-    "id": "EP10L",
-    "at": "2026-11-10T09:30:00+01:00",
-    "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP10L.mp4",
-    "caption": "Commente COWORK et je t'envoie ce qu'on lui confie en premier 👇\n\nCowork range tes factures, renomme tes fichiers et transforme tes notes en propositions, pendant que tu fais autre chose. #agentia #automatisation #pme #dirigeant #ia",
-    "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP10L.jpg"
-  },
-  {
-    "id": "CAR-construit",
-    "type": "carousel",
-    "at": "2026-11-10T13:00:00+01:00",
-    "image_urls": [
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/01.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/02.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/03.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/04.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/05.jpg"
-    ],
-    "caption": "Commente AUDIT et je t'envoie en DM la méthode d'audit 👇\n\nCe que j'ai construit avec Claude en 10 mois : un agent de prospection, un robot qui envoie les guides en DM, 3 logiciels, mes reels montés. Une tâche à la fois.\n\n#claude #ia #agentia #automatisation #pme"
-  },
-  {
-    "id": "CAR-cadre",
-    "type": "carousel",
-    "at": "2026-11-11T13:00:00+01:00",
-    "image_urls": [
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/01.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/02.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/03.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/04.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/05.jpg"
-    ],
-    "caption": "Un cadre, c'est ce qu'on choisit de montrer. 👇\n\nPendant deux ans, je n'ai montré que les mandats. Des courriers glissés dans les boîtes aux lettres, un par un, et une idée qui revenait : ça pourrait s'automatiser. Il y a dix mois, j'ai ouvert la porte.\n\nQuelle tâche fais-tu encore à la main ?\n\n#claude #ia #agentia #automatisation #pme"
-  },
-  {
-    "id": "CAR-kai",
-    "type": "carousel",
-    "at": "2026-11-12T13:00:00+01:00",
-    "image_urls": [
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/01.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/02.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/03.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/04.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/05.jpg"
-    ],
-    "caption": "Commente KAI et je te montre Kai en démo (réponse en privé) 👇\n\nMon agent de prospection trouve des entreprises avec un site web, vérifie l'adresse, écrit un message adapté au métier, relance puis s'arrête dès qu'on répond.\n\n#claude #ia #agentia #automatisation #pme"
-  },
-  {
-    "id": "CAR-logiciels",
-    "type": "carousel",
-    "at": "2026-11-13T13:00:00+01:00",
-    "image_urls": [
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/01.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/02.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/03.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/04.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/05.jpg"
-    ],
-    "caption": "Commente OUTILS et je t'envoie en DM les prompts des 3 logiciels 👇\n\nUn suivi de devis, un mini CRM, un tableau de trésorerie : des pages web simples, sans serveur. Garde ton abonnement au moins un mois en parallèle.\n\n#claude #ia #agentia #automatisation #pme"
-  },
-  {
-    "id": "CAR-consignes",
-    "type": "carousel",
-    "at": "2026-11-14T13:00:00+01:00",
-    "image_urls": [
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/01.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/02.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/03.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/04.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/05.jpg"
-    ],
-    "caption": "Commente PROMPT et je t'envoie en DM mon modèle de prompt 👇\n\n5 consignes pour de vrais résultats : un rôle, le contexte, un exemple, le format, et des questions avant qu'il réponde.\n\n#claude #ia #agentia #automatisation #pme"
-  },
-  {
-    "id": "CAR-agent",
-    "type": "carousel",
-    "at": "2026-11-15T13:00:00+01:00",
-    "image_urls": [
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/01.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/02.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/03.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/04.jpg",
-      "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/05.jpg"
-    ],
-    "caption": "Commente AGENT et je t'envoie en DM le test chatbot ou agent 👇\n\nTon premier agent IA en 4 étapes : une seule mission, les accès minimum, des règles écrites, un test avant de le lâcher.\n\n#claude #ia #agentia #automatisation #pme"
-  }
+ {
+  "id": "EP01",
+  "at": "2026-10-20T10:00:00+02:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP01.mp4",
+  "caption": "Commente ERREURS et je t'envoie la solution à chacune 👇\n\n5 erreurs qui t'empêchent de profiter de Claude : aucune skill installée, aucun outil connecté, le même prompt à chaque fois, tous les accès d'un coup, ne jamais vérifier. #claude #ia #agentia #automatisation #pme",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP01.jpg"
+ },
+ {
+  "id": "EP02",
+  "at": "2026-10-20T16:00:00+02:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP02.mp4",
+  "caption": "Commente SKILL et je t'envoie la skill devis 👇\n\nUne skill, c'est un dossier avec un fichier texte qui explique à Claude comment faire une tâche. Tu le déposes, il s'en sert tout seul. #claude #skills #ia #agentia #automatisation #pme",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP02.jpg"
+ },
+ {
+  "id": "EP03",
+  "at": "2026-10-22T10:00:00+02:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP03.mp4",
+  "caption": "Commente APPS et je t'envoie le guide de connexion 👇\n\nBrancher Claude à plus de 1 000 applications : mail, agenda, Notion, Slack. Une seule connexion. #claude #composio #ia #agentia #automatisation #pme",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP03.jpg"
+ },
+ {
+  "id": "R10",
+  "at": "2026-10-23T16:00:00+02:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R10.mp4",
+  "caption": "Commente ECHEC et je t'envoie le guide 👇\n\n3 erreurs qui font échouer un projet IA : tout automatiser d'un coup, ne rien mesurer avant, brancher un agent sans connecter tes outils. Le guide te donne la checklist de départ. #agentia #automatisation #pme #dirigeant #ia"
+ },
+ {
+  "id": "R15",
+  "at": "2026-10-24T10:00:00+02:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R15.mp4",
+  "caption": "Commente RAPIDE et je t'envoie le guide 👇\n\nUn prospect t'écrit samedi soir. Qui lui répond ? Un agent peut ouvrir la conversation, qualifier le besoin et proposer un rendez-vous. Le guide t'explique comment l'installer. #agentia #automatisation #pme #dirigeant #ia"
+ },
+ {
+  "id": "R13",
+  "at": "2026-10-25T09:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R13.mp4",
+  "caption": "Commente LUNDI et je t'envoie le guide 👇\n\nLundi, 9 heures, réunion d'équipe, rien de prêt ? Une IA peut préparer ta semaine : résumé de tes mails, points d'équipe, tâches classées. Le guide te montre comment la mettre en place. #agentia #automatisation #pme #dirigeant #ia"
+ },
+ {
+  "id": "R17",
+  "at": "2026-10-26T09:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R17.mp4",
+  "caption": "Commente COPIER et je t'envoie le guide 👇\n\nCRM, email, WhatsApp, tableur : tu recopies la même information d'un outil à l'autre ? Le guide te montre comment les relier pour que les données circulent toutes seules. #agentia #automatisation #pme #dirigeant #ia"
+ },
+ {
+  "id": "R18",
+  "at": "2026-10-27T09:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R18.mp4",
+  "caption": "Commente FORMATION et je t'envoie le guide 👇\n\nTu paies une formation IA et trois semaines plus tard, personne ne s'en sert ? Le guide te donne 5 questions à poser avant de payer. #agentia #automatisation #pme #dirigeant #ia"
+ },
+ {
+  "id": "R20",
+  "at": "2026-10-28T09:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/R20.mp4",
+  "caption": "Commente LIMITES et je t'envoie le guide 👇\n\nAvant de confier une tâche à un agent IA, sache ce qu'il ne sait pas faire. Le guide te montre où l'humain reprend la main. #agentia #automatisation #pme #dirigeant #ia"
+ },
+ {
+  "id": "EP04",
+  "at": "2026-10-30T08:50:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP04.mp4",
+  "caption": "Commente MAIL et je t'envoie le guide 👇\n\nTes mails de 23h peuvent être prêts à 8h. Un connecteur mail, 3 étapes, et rien ne part sans toi. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP04.jpg"
+ },
+ {
+  "id": "EP05",
+  "at": "2026-10-31T12:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP05.mp4",
+  "caption": "Commente APPEL et je t'envoie les cas d'usage 👇\n\nPlus besoin d'appeler pour confirmer tes RDV : l'IA envoie le SMS depuis un numéro dédié et le client répond OUI. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP05.jpg"
+ },
+ {
+  "id": "EP01H",
+  "at": "2026-11-01T13:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP01H.mp4",
+  "caption": "Commente ERREURS et je t'envoie la solution à chacune 👇\n\nCinq erreurs t'empêchent de vraiment profiter de Claude, et la quatrième, presque tout le monde la fait. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP01H.jpg"
+ },
+ {
+  "id": "EP02H",
+  "at": "2026-11-02T14:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP02H.mp4",
+  "caption": "Commente SKILL et je t'envoie la skill devis 👇\n\nUne skill, c'est un fichier qui apprend un métier à ton IA : tu le déposes, il s'en sert tout seul. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP02H.jpg"
+ },
+ {
+  "id": "EP03H",
+  "at": "2026-11-03T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP03H.mp4",
+  "caption": "Commente APPS et je t'envoie le tuto de connexion 👇\n\nBranche ton IA à plus de 1 000 applis avec une seule connexion : elle ne fait plus que répondre, elle agit. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP03H.jpg"
+ },
+ {
+  "id": "EP04H",
+  "at": "2026-11-04T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP04H.mp4",
+  "caption": "Commente MAIL et je t'envoie le guide 👇\n\nTes mails du soir peuvent t'attendre, réponses prêtes en brouillon au réveil. Une adresse dédiée, un connecteur, tes règles, et rien ne part sans toi. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP04H.jpg"
+ },
+ {
+  "id": "EP05H",
+  "at": "2026-11-05T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP05H.mp4",
+  "caption": "Commente APPEL et je t'envoie les cas d'usage du téléphone 👇\n\nPlus besoin d'appeler pour confirmer tes RDV : la veille à 17h, chaque client reçoit son SMS. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP05H.jpg"
+ },
+ {
+  "id": "EP06H",
+  "at": "2026-11-06T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP06H.mp4",
+  "caption": "Commente APPS et je t'envoie le guide 👇\n\n91 000 étoiles pour la prise USB de l'IA : branche ton agenda, ton CRM et tes fichiers en lecture seule. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP06H.jpg"
+ },
+ {
+  "id": "EP07H",
+  "at": "2026-11-07T12:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP07H.mp4",
+  "caption": "Commente PROJET et je t'envoie le modèle de consignes 👇\n\nTes tarifs, ton ton, tes présentations : dépose-les une fois dans un projet, l'IA ne te les redemande plus. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP07H.jpg"
+ },
+ {
+  "id": "EP08H",
+  "at": "2026-11-08T18:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP08H.mp4",
+  "caption": "Commente SKILL et je t'envoie le guide 👇\n\nUne skill, c'est un simple fichier qui apprend un métier à l'IA : posts, concurrents, campagne complète. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP08H.jpg"
+ },
+ {
+  "id": "EP09H",
+  "at": "2026-11-09T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP09H.mp4",
+  "caption": "Commente EXCEL et je t'envoie mon prompt d'analyse 👇\n\nDonne ton tableur à l'IA : doublons, cases vides, valeurs bizarres, et le client qui rapporte le plus. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP09H.jpg"
+ },
+ {
+  "id": "EP10L",
+  "at": "2026-11-10T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP10L.mp4",
+  "caption": "Commente COWORK et je t'envoie ce qu'on lui confie en premier 👇\n\nCowork range tes factures, renomme tes fichiers et transforme tes notes en propositions, pendant que tu fais autre chose. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP10L.jpg"
+ },
+ {
+  "id": "CAR-construit",
+  "type": "carousel",
+  "at": "2026-11-10T13:00:00+01:00",
+  "image_urls": [
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/01.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/02.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/03.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/04.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/construit/05.jpg"
+  ],
+  "caption": "Commente AUDIT et je t'envoie en DM la méthode d'audit 👇\n\nCe que j'ai construit avec Claude en 10 mois : un agent de prospection, un robot qui envoie les guides en DM, 3 logiciels, mes reels montés. Une tâche à la fois.\n\n#claude #ia #agentia #automatisation #pme"
+ },
+ {
+  "id": "CAR-cadre",
+  "type": "carousel",
+  "at": "2026-11-11T13:00:00+01:00",
+  "image_urls": [
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/01.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/02.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/03.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/04.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/cadre/05.jpg"
+  ],
+  "caption": "Un cadre, c'est ce qu'on choisit de montrer. 👇\n\nPendant deux ans, je n'ai montré que les mandats. Des courriers glissés dans les boîtes aux lettres, un par un, et une idée qui revenait : ça pourrait s'automatiser. Il y a dix mois, j'ai ouvert la porte.\n\nQuelle tâche fais-tu encore à la main ?\n\n#claude #ia #agentia #automatisation #pme"
+ },
+ {
+  "id": "CAR-kai",
+  "type": "carousel",
+  "at": "2026-11-12T13:00:00+01:00",
+  "image_urls": [
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/01.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/02.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/03.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/04.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/kai/05.jpg"
+  ],
+  "caption": "Commente KAI et je te montre Kai en démo (réponse en privé) 👇\n\nMon agent de prospection trouve des entreprises avec un site web, vérifie l'adresse, écrit un message adapté au métier, relance puis s'arrête dès qu'on répond.\n\n#claude #ia #agentia #automatisation #pme"
+ },
+ {
+  "id": "CAR-logiciels",
+  "type": "carousel",
+  "at": "2026-11-13T13:00:00+01:00",
+  "image_urls": [
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/01.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/02.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/03.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/04.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/logiciels/05.jpg"
+  ],
+  "caption": "Commente OUTILS et je t'envoie en DM les prompts des 3 logiciels 👇\n\nUn suivi de devis, un mini CRM, un tableau de trésorerie : des pages web simples, sans serveur. Garde ton abonnement au moins un mois en parallèle.\n\n#claude #ia #agentia #automatisation #pme"
+ },
+ {
+  "id": "CAR-consignes",
+  "type": "carousel",
+  "at": "2026-11-14T13:00:00+01:00",
+  "image_urls": [
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/01.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/02.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/03.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/04.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/05.jpg"
+  ],
+  "caption": "Commente PROMPT et je t'envoie en DM mon modèle de prompt 👇\n\n5 consignes pour de vrais résultats : un rôle, le contexte, un exemple, le format, et des questions avant qu'il réponde.\n\n#claude #ia #agentia #automatisation #pme"
+ },
+ {
+  "id": "CAR-agent",
+  "type": "carousel",
+  "at": "2026-11-15T13:00:00+01:00",
+  "image_urls": [
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/01.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/02.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/03.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/04.jpg",
+   "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/05.jpg"
+  ],
+  "caption": "Commente AGENT et je t'envoie en DM le test chatbot ou agent 👇\n\nTon premier agent IA en 4 étapes : une seule mission, les accès minimum, des règles écrites, un test avant de le lâcher.\n\n#claude #ia #agentia #automatisation #pme"
+ },
+ {
+  "id": "EP11H",
+  "at": "2026-11-11T13:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP11H.mp4",
+  "caption": "Commente LISTE et je t'envoie les tâches à déléguer 👇\n\nClaude pour Chrome préremplit ta fiche client à ta place, sans rien enregistrer. Tu vérifies, puis tu valides. #agentia #automatisation #pme #dirigeant #ia",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP11H.jpg"
+ }
 ]
