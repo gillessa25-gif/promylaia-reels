@@ -195,7 +195,7 @@
  {
   "id": "CAR-consignes",
   "type": "carousel",
-  "at": "2026-11-14T09:00:00+01:00",
+  "at": "2026-11-16T09:00:00+01:00",
   "image_urls": [
    "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/01.jpg",
    "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/consignes/02.jpg",
@@ -208,7 +208,7 @@
  {
   "id": "CAR-agent",
   "type": "carousel",
-  "at": "2026-11-15T09:00:00+01:00",
+  "at": "2026-11-17T09:00:00+01:00",
   "image_urls": [
    "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/01.jpg",
    "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/carousels/agent/02.jpg",
