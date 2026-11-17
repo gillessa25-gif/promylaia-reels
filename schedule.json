@@ -238,5 +238,37 @@
   "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/EP12H.mp4",
   "caption": "Tout le monde utilise Claude pour écrire. Personne ne te montre ça : cette animation est faite avec du code, en trois étapes. Abonne-toi pour voir d'autres vidéos codées 👇 #claude #ia #code #animation #automatisation",
   "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/EP12H.jpg"
+ },
+ {
+  "id": "MSFT-A",
+  "at": "2026-11-18T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/MSFT-PROMY.mp4",
+  "caption": "Microsoft hacké ? Microsoft écarte la cyberattaque (source : Le Monde, 13/11). La vraie question : quand l'IA plante, qui reprend la main ?\n\nMoi, j'installe des agents IA pour automatiser les tâches répétitives, pas pour perdre les compétences humaines qui gardent le contrôle.\n\n#microsoft #panne #ia #automatisation #pme",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/MSFT-A.jpg",
+  "trial": true
+ },
+ {
+  "id": "MSFT-B",
+  "at": "2026-11-19T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/MSFT-PROMY.mp4",
+  "caption": "Microsoft hacké ? Microsoft écarte la cyberattaque (source : Le Monde, 13/11). La vraie question : quand l'IA plante, qui reprend la main ?\n\nMoi, j'installe des agents IA pour automatiser les tâches répétitives, pas pour perdre les compétences humaines qui gardent le contrôle.\n\n#microsoft #panne #ia #automatisation #pme",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/MSFT-B.jpg",
+  "trial": true
+ },
+ {
+  "id": "MSFT-C",
+  "at": "2026-11-20T09:30:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/MSFT-PROMY.mp4",
+  "caption": "Microsoft hacké ? Microsoft écarte la cyberattaque (source : Le Monde, 13/11). La vraie question : quand l'IA plante, qui reprend la main ?\n\nMoi, j'installe des agents IA pour automatiser les tâches répétitives, pas pour perdre les compétences humaines qui gardent le contrôle.\n\n#microsoft #panne #ia #automatisation #pme",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/MSFT-C.jpg",
+  "trial": true
+ },
+ {
+  "id": "MSFT-D",
+  "at": "2026-11-21T12:00:00+01:00",
+  "video_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/reels/MSFT-PROMY.mp4",
+  "caption": "Microsoft hacké ? Microsoft écarte la cyberattaque (source : Le Monde, 13/11). La vraie question : quand l'IA plante, qui reprend la main ?\n\nMoi, j'installe des agents IA pour automatiser les tâches répétitives, pas pour perdre les compétences humaines qui gardent le contrôle.\n\n#microsoft #panne #ia #automatisation #pme",
+  "cover_url": "https://raw.githubusercontent.com/gillessa25-gif/promylaia-reels/main/covers/MSFT-D.jpg",
+  "trial": true
  }
 ]

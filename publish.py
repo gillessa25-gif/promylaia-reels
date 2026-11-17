@@ -48,6 +48,8 @@ def graph(method, path, body=None):
 def publish_via_graph(it):
     body = {"media_type": "REELS", "video_url": it["video_url"], "caption": it["caption"], "share_to_feed": True}
     body.update({"cover_url": it["cover_url"]} if it.get("cover_url") else {"thumb_offset": 500})
+    if it.get("trial"):  # reel d'essai : montré d'abord aux non-abonnés, à promouvoir à la main
+        body["trial_params"] = {"graduation_strategy": "MANUAL"}
     c = graph("POST", f"{IG_USER_ID}/media", body)
     cid = c.get("id")
     if not cid:
